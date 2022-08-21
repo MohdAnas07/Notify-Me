@@ -1,0 +1,78 @@
+.card{
+border-bottom: 2px solid lightseagreen;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    padding: 3px 5px;
+    position: relative;
+}
+
+.user-img{
+    width: 60px;
+    border-radius: 50%;
+    height: 60px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.post-img{
+    width: 100%;
+    max-height: 394px;
+    object-fit: cover;
+}
+.user-name{
+    font-weight: bold;
+}
+
+.interaction{
+    display: flex; 
+    height: 40px;
+    position: relative;
+}
+
+.card-icon{
+    width: 16px;
+    height: 16px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.info-icon{
+    position: absolute;
+    right: 5px;
+    width: 20px;
+    height: 20px;
+}
+
+.comment-section{
+    position: relative;
+}
+
+.comment-box{
+    position: absolute;
+    top: -42px;
+    left: 5px;
+    display: flex;
+    border:1px solid lightseagreen;
+    border-radius: 3px;
+    
+}
+
+.comment-box input{
+    padding: 10px;
+    outline: none;
+    border: none;
+}
+.comment-box button{
+    outline: none;
+    border: none;
+    background-color: lightseagreen;
+    cursor: pointer;
+}
+
+.comment-box img{
+    height: 20px;
+    width: 25px;
+}

@@ -1,0 +1,72 @@
+.App-container{
+  width: 50%;
+  /* border:2px solid lightseagreen; */
+  margin: 0 auto;
+}
+
+.app-content{
+  border: 2px solid lightseagreen;
+}
+
+.content{
+  /* width: 500px; */
+  max-height: calc(100vh - 64px);
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.login{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  
+}
+
+.container{
+  width: 40vw;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 5px;
+  border: 2px solid lightseagreen;
+
+}
+.login-container{
+  /* width: 100%; */
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-top: 2px solid lightseagreen;
+
+}
+
+.container input{
+  padding: 10px 15px;
+  border: 2px solid;
+  border-radius: 5px;
+  margin: 10px auto ;
+  font-weight: bold;
+}
+
+.container button{
+  padding: 10px;
+  width: 60%;
+  background-color: lightseagreen;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+} 
+
+.username{
+  font-weight: bold;
+  color: lightseagreen;
+  position: absolute;
+  right: 20px;
+  top: 10px;
+}

@@ -1,0 +1,92 @@
+.navbar{
+    height: 60px;
+    background-color: lightseagreen;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    align-items: center;
+    color: #fff;
+    position: relative;
+}
+
+.logo{
+    font-weight: bold;
+    font-size: large;
+
+}
+
+.icons{
+    display: flex;
+}
+
+.icon{
+    position: relative;
+    margin: 0 10px;
+}
+
+.imgIcon{
+    width: 25px;
+    height: 30px;
+    cursor: pointer;
+}
+.counter{
+    position: absolute;
+    top: -7px;
+    right: -5px;
+    background-color: red;
+    border-radius: 50%;
+    height: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.notifications{
+    top: 60px;
+    right: 0;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: #eeee;
+    color: #000;
+    z-index: 1;
+    font-weight: 300;
+    width: calc(100% - 20px);
+}
+
+.notification-content{
+    display: flex;
+    align-items: center;
+}
+
+.notification{
+    padding: 5px;
+    
+}
+
+.notification-userImg{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+.nButton{
+    background: lightseagreen;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+    color: #fff;
+}
+.nButton:hover{
+    background: rgb(40, 154, 148);
+}
+
+.notification-user{
+    font-weight: 500;
+}

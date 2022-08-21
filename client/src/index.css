@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+/* Code for scrollbar customization */
+
+::-webkit-scrollbar {
+  width: 2px;
+  /* height: 2px */
+  /* background-color: black; */
+}
+
+::-webkit-scrollbar-button {
+  background: #ccc
+}
+
+::-webkit-scrollbar-track-piece {
+  background: rgb(70, 70, 70)
+}
+
+::-webkit-scrollbar-thumb {
+  background: #eee
+}
+
+.scrollable-element {
+  scrollbar-color: red yellow; /* red is for the thumb and yellow is for the track */
+}
+
